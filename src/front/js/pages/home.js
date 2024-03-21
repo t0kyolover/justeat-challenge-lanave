@@ -25,7 +25,6 @@ export const Home = () => {
           height="400px"
           className=""
         />
-        
       </div>
       <ul
         class="nav nav-tabs justify-content-center mt-4"
@@ -73,6 +72,107 @@ export const Home = () => {
         >
           {" "}
           <div className="d-flex justify-content-center">
+            <p class="d-inline-flex gap-1">
+              <button
+                class="btn btn-primary m-3"
+                style={{ background: "orange" }}
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseExample"
+                aria-expanded="false"
+                aria-controls="collapseExample"
+              >
+                Restaurantes
+              </button>
+            </p>
+            <div class="collapse" id="collapseExample">
+              <div class="card card-body">
+                La lista de restaurantes
+              </div>
+            </div>
+			<p class="d-inline-flex gap-1">
+              <button
+                class="btn btn-primary m-3"
+                style={{ background: "orange" }}
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseExample2"
+                aria-expanded="false"
+                aria-controls="collapseExample2"
+              >
+                Supermercados
+              </button>
+            </p>
+            <div class="collapse" id="collapseExample2">
+              <div class="card card-body">
+                La lista de supermercados
+              </div>
+            </div>
+            <p class="d-inline-flex gap-1">
+              <button
+                class="btn btn-primary m-3"
+                style={{ background: "orange" }}
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseExample3"
+                aria-expanded="false"
+                aria-controls="collapseExample3"
+              >
+                Farmacias
+              </button>
+            </p>
+            <div class="collapse" id="collapseExample3">
+              <div class="card card-body">
+                La lista de farmacias
+              </div>
+            </div>
+            <p class="d-inline-flex gap-1">
+              <button
+                class="btn btn-primary m-3"
+                style={{ background: "orange" }}
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseExample4"
+                aria-expanded="false"
+                aria-controls="collapseExample4"
+              >
+                Alimentación
+              </button>
+            </p>
+            <div class="collapse" id="collapseExample4">
+              <div class="card card-body">
+                La lista de tiendas de alimentación
+              </div>
+            </div>
+            <p class="d-inline-flex gap-1">
+              <button
+                class="btn btn-primary m-3"
+                style={{ background: "orange" }}
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseExample5"
+                aria-expanded="false"
+                aria-controls="collapseExample5"
+              >
+                Tiendas de mascotas
+              </button>
+            </p>
+            <div class="collapse" id="collapseExample5">
+              <div class="card card-body">
+                La lista de tiendas de mascotas
+              </div>
+            </div>
+            
+          </div>
+        </div>
+        <div
+          class="tab-pane fade m-3"
+          id="profile-tab-pane"
+          role="tabpanel"
+          aria-labelledby="profile-tab"
+          tabindex="0"
+        >
+          <div className="d-flex justify-content-center">
             <button
               className="btn btn-primary m-3"
               style={{ background: "orange" }}
@@ -105,44 +205,6 @@ export const Home = () => {
             </button>
           </div>
         </div>
-        <div
-          class="tab-pane fade m-3"
-          id="profile-tab-pane"
-          role="tabpanel"
-          aria-labelledby="profile-tab"
-          tabindex="0"
-        ><div className="d-flex justify-content-center">
-		<button
-		  className="btn btn-primary m-3"
-		  style={{ background: "orange" }}
-		>
-		  Restaurantes
-		</button>
-		<button
-		  className="btn btn-primary m-3"
-		  style={{ background: "orange" }}
-		>
-		  Supermercados
-		</button>
-		<button
-		  className="btn btn-primary m-3"
-		  style={{ background: "orange" }}
-		>
-		  Farmacias
-		</button>
-		<button
-		  className="btn btn-primary m-3"
-		  style={{ background: "orange" }}
-		>
-		  Alimentaciòn
-		</button>
-		<button
-		  className="btn btn-primary m-3"
-		  style={{ background: "orange" }}
-		>
-		  Tiendas de mascotas
-		</button>
-	  </div></div>
       </div>
     </div>
   );
