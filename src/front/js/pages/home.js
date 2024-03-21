@@ -25,17 +25,7 @@ export const Home = () => {
           height="400px"
           className=""
         />
-        <button className="btn">
-          <i
-            className="fa-solid fa-magnifying-glass position-absolute fs-4"
-            style={{
-              top: "90%",
-              right: "10%",
-              transform: "translate(-50%, -50%)",
-              color: "orange",
-            }}
-          ></i>
-        </button>
+        
       </div>
       <ul
         class="nav nav-tabs justify-content-center mt-4"
@@ -53,7 +43,8 @@ export const Home = () => {
             aria-controls="home-tab-pane"
             aria-selected="true"
           >
-            Pedido Turbo <i class="fa-solid fa-rocket" style={{ color: "orange" }}></i>
+            Pedido Turbo{" "}
+            <i class="fa-solid fa-rocket" style={{ color: "orange" }}></i>
           </button>
         </li>
         <li class="nav-item" role="presentation">
@@ -67,14 +58,12 @@ export const Home = () => {
             aria-controls="profile-tab-pane"
             aria-selected="false"
           >
-            Puedo esperar <i class="fa-solid fa-clock" style={{ color: "orange" }}></i>
+            Puedo esperar{" "}
+            <i class="fa-solid fa-clock" style={{ color: "orange" }}></i>
           </button>
         </li>
       </ul>
-      <div
-        class="tab-content d-flex justify-content-center m-3"
-        id="myTabContent"
-      >
+      <div class="tab-content m-3" id="myTabContent">
         <div
           class="tab-pane fade show active mt-3"
           id="home-tab-pane"
@@ -82,44 +71,78 @@ export const Home = () => {
           aria-labelledby="home-tab"
           tabindex="0"
         >
-          <button
-            className="btn btn-primary m-3"
-            style={{ background: "orange" }}
-          >
-            Restaurantes
-          </button>
-          <button
-            className="btn btn-primary m-3"
-            style={{ background: "orange" }}
-          >
-            Supermercados
-          </button>
-          <button
-            className="btn btn-primary m-3"
-            style={{ background: "orange" }}
-          >
-            Farmacias
-          </button>
-          <button
-            className="btn btn-primary m-3"
-            style={{ background: "orange" }}
-          >
-            Alimentaciòn
-          </button>
-          <button
-            className="btn btn-primary m-3"
-            style={{ background: "orange" }}
-          >
-            Tiendas de mascotas
-          </button>
+          {" "}
+          <div className="d-flex justify-content-center">
+            <button
+              className="btn btn-primary m-3"
+              style={{ background: "orange" }}
+            >
+              Restaurantes
+            </button>
+            <button
+              className="btn btn-primary m-3"
+              style={{ background: "orange" }}
+            >
+              Supermercados
+            </button>
+            <button
+              className="btn btn-primary m-3"
+              style={{ background: "orange" }}
+            >
+              Farmacias
+            </button>
+            <button
+              className="btn btn-primary m-3"
+              style={{ background: "orange" }}
+            >
+              Alimentaciòn
+            </button>
+            <button
+              className="btn btn-primary m-3"
+              style={{ background: "orange" }}
+            >
+              Tiendas de mascotas
+            </button>
+          </div>
         </div>
         <div
-          class="tab-pane fade d-flex justify-content-center m-3"
+          class="tab-pane fade m-3"
           id="profile-tab-pane"
           role="tabpanel"
           aria-labelledby="profile-tab"
           tabindex="0"
-        ></div>
+        ><div className="d-flex justify-content-center">
+		<button
+		  className="btn btn-primary m-3"
+		  style={{ background: "orange" }}
+		>
+		  Restaurantes
+		</button>
+		<button
+		  className="btn btn-primary m-3"
+		  style={{ background: "orange" }}
+		>
+		  Supermercados
+		</button>
+		<button
+		  className="btn btn-primary m-3"
+		  style={{ background: "orange" }}
+		>
+		  Farmacias
+		</button>
+		<button
+		  className="btn btn-primary m-3"
+		  style={{ background: "orange" }}
+		>
+		  Alimentaciòn
+		</button>
+		<button
+		  className="btn btn-primary m-3"
+		  style={{ background: "orange" }}
+		>
+		  Tiendas de mascotas
+		</button>
+	  </div></div>
       </div>
     </div>
   );
