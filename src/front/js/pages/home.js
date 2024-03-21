@@ -19,7 +19,9 @@ export const Home = () => {
           </h5>
         </Link>
       </div>
-      <div className="text-center mt-5 position-relative">
+
+      <div className="text-center my-3 position-relative">
+        <h1 style={{ color: "orange" }}> ...o haz un pedido turbo</h1>
         <img
           src="https://i.stack.imgur.com/HILmr.png"
           height="400px"
@@ -86,11 +88,9 @@ export const Home = () => {
               </button>
             </p>
             <div class="collapse" id="collapseExample">
-              <div class="card card-body">
-                La lista de restaurantes
-              </div>
+              <div class="card card-body">La lista de restaurantes</div>
             </div>
-			<p class="d-inline-flex gap-1">
+            <p class="d-inline-flex gap-1">
               <button
                 class="btn btn-primary m-3"
                 style={{ background: "orange" }}
@@ -104,9 +104,7 @@ export const Home = () => {
               </button>
             </p>
             <div class="collapse" id="collapseExample2">
-              <div class="card card-body">
-                La lista de supermercados
-              </div>
+              <div class="card card-body">La lista de supermercados</div>
             </div>
             <p class="d-inline-flex gap-1">
               <button
@@ -122,9 +120,7 @@ export const Home = () => {
               </button>
             </p>
             <div class="collapse" id="collapseExample3">
-              <div class="card card-body">
-                La lista de farmacias
-              </div>
+              <div class="card card-body">La lista de farmacias</div>
             </div>
             <p class="d-inline-flex gap-1">
               <button
@@ -158,11 +154,8 @@ export const Home = () => {
               </button>
             </p>
             <div class="collapse" id="collapseExample5">
-              <div class="card card-body">
-                La lista de tiendas de mascotas
-              </div>
+              <div class="card card-body">La lista de tiendas de mascotas</div>
             </div>
-            
           </div>
         </div>
         <div
